@@ -57,7 +57,7 @@ module.exports = async kernel =>
 				params:
 				{
 					message: install(kernel),
-					path: 'facefusion',
+					path: 'facefusion-unlocked',
 					venv: 'env'
 				}
 			},
@@ -73,7 +73,7 @@ module.exports = async kernel =>
 				method: 'browser.open',
 				params:
 				{
-					uri: '/?selected=facefusion'
+					uri: '/?selected=facefusion-unlocked'
 				}
 			}
 		]

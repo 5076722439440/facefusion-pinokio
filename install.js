@@ -49,7 +49,7 @@ module.exports = async kernel =>
 				method: 'shell.run',
 				params:
 				{
-					message: 'git clone https://github.com/hassan-sd/facefusion-unlocked --branch 2.0.0 --single-branch'
+					message: 'git clone https://github.com/hassan-sd/facefusion-unlocked --branch master --single-branch'
 				}
 			},
 			{

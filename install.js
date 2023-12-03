@@ -49,7 +49,7 @@ module.exports = async kernel =>
 				method: 'shell.run',
 				params:
 				{
-					message: 'git clone https://github.com/hassan-sd/facefusion-unlocked --branch master --single-branch'
+					message: 'git clone https://github.com/5076722439440/facefusion --branch master --single-branch'
 				}
 			},
 			{
@@ -57,7 +57,7 @@ module.exports = async kernel =>
 				params:
 				{
 					message: install(kernel),
-					path: 'facefusion-unlocked',
+					path: 'facefusion',
 					venv: 'env'
 				}
 			},
@@ -73,7 +73,7 @@ module.exports = async kernel =>
 				method: 'browser.open',
 				params:
 				{
-					uri: '/?selected=facefusion-unlocked'
+					uri: '/?selected=facefusion'
 				}
 			}
 		]
